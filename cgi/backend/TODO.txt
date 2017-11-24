@@ -1,0 +1,8 @@
+TODO
+
+1. (deleted) How to determine the first test. When there are not previous answers and tests, there's not a estimated hypothesis we can 'optimized'. 
+2. Why is the test for the first round not fixed for same dataset?
+   A: This is caused by the sampling threshold of 1000 tests.
+3. Implement a oracle subject that always gives the answer to the image closer to the target.
+4. Implement a dimention reduction to 2D so that the distribution of hypotheses and estimation target can be intuitively illustrated.
+5. Suppose in 3 the algorithm can always correctly pinpoint the target after finite steps of iteration, then introduc some noise to the oracle and carry out simulation.

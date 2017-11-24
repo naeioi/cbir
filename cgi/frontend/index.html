@@ -1,0 +1,38 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<div class="container">
+<div class="row" id="out-wrapper">
+    <div id="showbox" class="container col-10 justify-content-center">
+    <div class="row">
+        <div id="left-wrapper" class="col">
+            <img class="candidate rounded">
+            <div id="button-wrapper">
+                <button class="closer btn btn-primary btn-block">This is closer to target</button>
+                <button class="target btn btn-success btn-block">This is the target</button>
+            </div>
+        </div>
+        <div id="right-wrapper" class="col">
+            <img class="candidate rounded">
+            <div id="button-wrapper">
+                <button class="closer btn btn-primary btn-block">This is closer to target</button>
+                <button class="target btn btn-success btn-block">This is the target</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div id="dashbox" class="col-2">
+        <button id="reset">reset</button>
+        <div id="right">
+            <label id="rounds">Round(s)</label><span id="rounds"></span>
+        </div>
+    </div>
+</div>    
+</div>
+<script src="static/main.js"></script>
+</body>
+</html>
